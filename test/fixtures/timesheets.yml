@@ -1,7 +1,6 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-<<<<<<< HEAD
   project_name: MyString
   team_size: 1
   duration: 1
@@ -12,13 +11,3 @@ two:
   team_size: 1
   duration: 1
   submition: 2015-07-30
-=======
-  ProjectName: MyString
-  TeamSize: 1
-  Technology: MyString
-
-two:
-  ProjectName: MyString
-  TeamSize: 1
-  Technology: MyString
->>>>>>> 763d613b6a3792ef91bfb3e536c03ae816a17de6

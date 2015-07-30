@@ -1,11 +1,13 @@
 Rails.application.routes.draw do
-<<<<<<< HEAD
   devise_for :users
-=======
-  resources :timesheets
->>>>>>> 763d613b6a3792ef91bfb3e536c03ae816a17de6
   root 'pages#home'
    get 'pages/timesheet'
+   get 'timesheets/index'
+   get 'timesheets/new'
+   get 'timesheets/show'
+   get 'timesheets/edit'
+   resources:timesheets
+  #get 'timesheets/index'
 
 
   # The priority is based upon order of creation: first created -> highest priority.

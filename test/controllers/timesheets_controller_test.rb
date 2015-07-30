@@ -18,11 +18,7 @@ class TimesheetsControllerTest < ActionController::TestCase
 
   test "should create timesheet" do
     assert_difference('Timesheet.count') do
-<<<<<<< HEAD
       post :create, timesheet: { duration: @timesheet.duration, project_name: @timesheet.project_name, submition: @timesheet.submition, team_size: @timesheet.team_size }
-=======
-      post :create, timesheet: { ProjectName: @timesheet.ProjectName, TeamSize: @timesheet.TeamSize, Technology: @timesheet.Technology }
->>>>>>> 763d613b6a3792ef91bfb3e536c03ae816a17de6
     end
 
     assert_redirected_to timesheet_path(assigns(:timesheet))
@@ -39,11 +35,7 @@ class TimesheetsControllerTest < ActionController::TestCase
   end
 
   test "should update timesheet" do
-<<<<<<< HEAD
     patch :update, id: @timesheet, timesheet: { duration: @timesheet.duration, project_name: @timesheet.project_name, submition: @timesheet.submition, team_size: @timesheet.team_size }
-=======
-    patch :update, id: @timesheet, timesheet: { ProjectName: @timesheet.ProjectName, TeamSize: @timesheet.TeamSize, Technology: @timesheet.Technology }
->>>>>>> 763d613b6a3792ef91bfb3e536c03ae816a17de6
     assert_redirected_to timesheet_path(assigns(:timesheet))
   end
 
