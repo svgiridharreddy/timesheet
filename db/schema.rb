@@ -11,6 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20150730114206) do
 
   create_table "installs", force: :cascade do |t|
@@ -58,4 +59,16 @@ ActiveRecord::Schema.define(version: 20150730114206) do
   add_index "users", ["email"], name: "index_users_on_email", unique: true
   add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
 
+=======
+ActiveRecord::Schema.define(version: 20150730102127) do
+
+  create_table "timesheets", force: :cascade do |t|
+    t.string   "ProjectName"
+    t.integer  "TeamSize"
+    t.string   "Technology"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+  end
+
+>>>>>>> 763d613b6a3792ef91bfb3e536c03ae816a17de6
 end

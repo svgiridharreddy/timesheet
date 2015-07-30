@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
   devise_for :users
+=======
+  resources :timesheets
+>>>>>>> 763d613b6a3792ef91bfb3e536c03ae816a17de6
   root 'pages#home'
    get 'pages/timesheet'
 

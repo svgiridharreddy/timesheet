@@ -12,6 +12,7 @@
   <% end %>
 
   <div class="field">
+<<<<<<< HEAD
     <%= f.label :project_name %><br>
     <%= f.text_field :project_name %>
   </div>
@@ -26,6 +27,18 @@
   <div class="field">
     <%= f.label :submition %><br>
     <%= f.date_select :submition %>
+=======
+    <%= f.label :ProjectName %><br>
+    <%= f.text_field :ProjectName %>
+  </div>
+  <div class="field">
+    <%= f.label :TeamSize %><br>
+    <%= f.number_field :TeamSize %>
+  </div>
+  <div class="field">
+    <%= f.label :Technology %><br>
+    <%= f.text_field :Technology %>
+>>>>>>> 763d613b6a3792ef91bfb3e536c03ae816a17de6
   </div>
   <div class="actions">
     <%= f.submit %>

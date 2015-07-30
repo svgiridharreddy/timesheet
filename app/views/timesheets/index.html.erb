@@ -5,10 +5,16 @@
 <table>
   <thead>
     <tr>
+<<<<<<< HEAD
       <th>Project name</th>
       <th>Team size</th>
       <th>Duration</th>
       <th>Submition</th>
+=======
+      <th>Projectname</th>
+      <th>Teamsize</th>
+      <th>Technology</th>
+>>>>>>> 763d613b6a3792ef91bfb3e536c03ae816a17de6
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -16,10 +22,16 @@
   <tbody>
     <% @timesheets.each do |timesheet| %>
       <tr>
+<<<<<<< HEAD
         <td><%= timesheet.project_name %></td>
         <td><%= timesheet.team_size %></td>
         <td><%= timesheet.duration %></td>
         <td><%= timesheet.submition %></td>
+=======
+        <td><%= timesheet.ProjectName %></td>
+        <td><%= timesheet.TeamSize %></td>
+        <td><%= timesheet.Technology %></td>
+>>>>>>> 763d613b6a3792ef91bfb3e536c03ae816a17de6
         <td><%= link_to 'Show', timesheet %></td>
         <td><%= link_to 'Edit', edit_timesheet_path(timesheet) %></td>
         <td><%= link_to 'Destroy', timesheet, method: :delete, data: { confirm: 'Are you sure?' } %></td>
