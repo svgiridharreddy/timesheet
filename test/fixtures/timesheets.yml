@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ProjectName: MyString
+  TeamSize: 1
+  Technology: MyString
+
+two:
+  ProjectName: MyString
+  TeamSize: 1
+  Technology: MyString
