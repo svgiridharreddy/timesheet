@@ -6,7 +6,11 @@ Rails.application.routes.draw do
    get 'timesheets/new'
    get 'timesheets/show'
    get 'timesheets/edit'
-   resources:timesheets
+   get 'pages/about'
+   get 'pages/services'
+   get 'pages/contact'
+   
+   
   #get 'timesheets/index'
 
 

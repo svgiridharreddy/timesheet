@@ -20,9 +20,9 @@
         <td><%= timesheet.team_size %></td>
         <td><%= timesheet.duration %></td>
         <td><%= timesheet.submition %></td>
-        <td><%= link_to 'Show', timesheet %></td>
-        <td><%= link_to 'Edit', edit_timesheet_path(timesheet) %></td>
-        <td><%= link_to 'Destroy', timesheet, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><button class="btn btn-success"><%= link_to 'Show', show_timesheet_path %></button></td>
+        <td><button class="btn btn-info"><%= link_to 'Edit', edit_timesheet_path(timesheet) %></button></td>
+        <td><button class="btn btn-danger"><%= link_to 'Destroy', timesheet, method: :delete, data: { confirm: 'Are you sure?' } %></button></td>
       </tr>
     <% end %>
   </tbody>
@@ -30,4 +30,5 @@
 
 <br>
 
-<%= link_to 'New Timesheet', new_timesheet_path %>
+<button class="btn btn-info"><%= link_to 'New Timesheet', new_timesheet_path %></button>
+
